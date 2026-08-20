@@ -5,7 +5,12 @@
   </head>
   <body>
     <h1>Saludador</h1>
-    <div>Hola</div>
+    <form id="form-saludo">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" />
+      <button type="submit">Saludar</button>
+    </form>
+    <div id="resultado-div"></div>
     <script type="module" src="./src/presenter.js"></script>
   </body>
 </html>
