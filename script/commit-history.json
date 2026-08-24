@@ -57,17 +57,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0d373b7772e011ed3c10e11e6afa3537d911ae02",
     "author": "Chris",
     "commit": {
       "date": "2026-08-24T12:38:32.000Z",
       "message": "feat: Agregar saludo por genero y nombre",
-      "url": "https://github.com/ChristopherQuiroz/Implemementar-incrementalmente-el-saludador/commit/HEAD"
+      "url": "https://github.com/ChristopherQuiroz/Implemementar-incrementalmente-el-saludador/commit/0d373b7772e011ed3c10e11e6afa3537d911ae02"
     },
     "stats": {
       "total": 58,
       "additions": 35,
       "deletions": 23,
+      "date": "2026-08-24"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Chris",
+    "commit": {
+      "date": "2026-08-24T12:52:42.000Z",
+      "message": "feat: Agregar saludo considerando la edad",
+      "url": "https://github.com/ChristopherQuiroz/Implemementar-incrementalmente-el-saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 71,
+      "additions": 59,
+      "deletions": 12,
       "date": "2026-08-24"
     },
     "coverage": 0,
