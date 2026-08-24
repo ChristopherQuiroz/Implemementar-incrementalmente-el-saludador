@@ -12,9 +12,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "629675836d15be895aaf0f9c64001782edc3498a",
     "commitName": "feat:Agregar saludo de acuerdo a la hora",
     "commitTimestamp": 1787574215030,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Agregar saludo por genero y nombre",
+    "commitTimestamp": 1787575113092,
+    "testId": 3
   }
 ]

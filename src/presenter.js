@@ -1,20 +1,15 @@
-import getHora from "./getHora.js";
+import verificarGenero from "./verificarGenero.js";
 
 const name = document.querySelector("#name");
+const genero = document.querySelector("#genero");
 const form = document.querySelector("#form-saludo");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
+  
   let greeting = '';
-  const hora = getHora();
-  if(hora < 12) {
-    greeting = `Buenos días, ${name.value}`;
-  } else if(hora < 18) {
-    greeting = `Buenas tardes, ${name.value}`;
-  } else if(hora < 5) {
-    greeting = `Buenas noches, ${name.value}`;
-  }
+  greeting = verificarGenero(genero.value, name.value);
   
   div.innerHTML = `<p>${greeting}</p>`;
 });
