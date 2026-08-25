@@ -24,9 +24,15 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2d9312330a20e823ef5bb06b973e9de4f6da0525",
     "commitName": "feat: Agregar saludo considerando la edad",
     "commitTimestamp": 1787575963847,
     "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Saludar de acuerdo al idioma",
+    "commitTimestamp": 1787623473868,
+    "testId": 5
   }
 ]

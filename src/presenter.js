@@ -1,16 +1,22 @@
-import prepararSaludo from "/src/prepararSaludo.js";
+import prepararSaludo from './prepararSaludo.js';
 
-const name = document.querySelector("#name");
-const genero = document.querySelector("#genero");
-const edad = document.querySelector("#edad");
-const form = document.querySelector("#form-saludo");
-const div = document.querySelector("#resultado-div");
+const name = document.querySelector('#name');
+const genero = document.querySelector('#genero');
+const edad = document.querySelector('#edad');
+const idioma = document.querySelector('#idioma');
+const formSaludo = document.querySelector('#form-saludo');
+const div = document.querySelector('#resultado-div');
 
-form.addEventListener("submit", (event) => {
+formSaludo.addEventListener('submit', (event) => {
   event.preventDefault();
-  
+
   let greeting = '';
-  greeting = prepararSaludo(name.value, genero.value, parseInt(edad.value));
-  
+  greeting = prepararSaludo(
+    name.value,
+    genero.value,
+    parseInt(edad.value),
+    idioma.value
+  );
+
   div.innerHTML = `<p>${greeting}</p>`;
 });
