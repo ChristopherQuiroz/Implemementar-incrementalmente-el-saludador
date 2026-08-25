@@ -10,9 +10,16 @@ const div = document.querySelector('#resultado-div');
 formSaludo.addEventListener('submit', (event) => {
   event.preventDefault();
 
+  var nombre = name.value;
+
+  if(nombre == "")
+  {
+    nombre = "visitante";
+  }
+
   let greeting = '';
   greeting = prepararSaludo(
-    name.value,
+    nombre,
     genero.value,
     parseInt(edad.value),
     idioma.value

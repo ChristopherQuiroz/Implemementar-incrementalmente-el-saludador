@@ -14,7 +14,8 @@ i18next.init({
                 young: 'joven',
                 youngFemale: 'jovencita',
                 mr: 'Sr.',
-                mrs: 'Sra.'
+                mrs: 'Sra.',
+                visitante: 'visitante'
             }
         },
         en: {
@@ -25,7 +26,8 @@ i18next.init({
                 young: 'young',
                 youngFemale: 'young',
                 mr: 'Mr.',
-                mrs: 'Mrs.'
+                mrs: 'Mrs.',
+                visitante: 'visitor'
             }
         }
     }
@@ -48,10 +50,14 @@ function saludar(nombre, genero, edad, idioma = 'es') {
         claveSaludo = 'afternoon';
     }
 
+    const nombreTraducido = nombre == 'visitante'
+        ? i18next.t('visitante', { lng: idioma })
+        : nombre;
+
     return i18next.t(claveSaludo, {
         lng: idioma,
         pronombre: traduccionPronombre ? i18next.t(traduccionPronombre, { lng: idioma }) : '',
-        nombre
+        nombre: nombreTraducido
     });
 }
 

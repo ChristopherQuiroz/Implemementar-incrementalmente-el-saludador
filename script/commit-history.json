@@ -95,17 +95,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "fc9b36e657ae2d65fe31e5707920db80eebd3598",
     "author": "Chris",
     "commit": {
       "date": "2026-08-25T02:04:32.000Z",
       "message": "feat: Saludar de acuerdo al idioma",
-      "url": "https://github.com/ChristopherQuiroz/Implemementar-incrementalmente-el-saludador/commit/HEAD"
+      "url": "https://github.com/ChristopherQuiroz/Implemementar-incrementalmente-el-saludador/commit/fc9b36e657ae2d65fe31e5707920db80eebd3598"
     },
     "stats": {
       "total": 163,
       "additions": 135,
       "deletions": 28,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Chris",
+    "commit": {
+      "date": "2026-08-25T13:44:16.000Z",
+      "message": "test: Modificacion de saludo si nombre esta vacio",
+      "url": "https://github.com/ChristopherQuiroz/Implemementar-incrementalmente-el-saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 17,
+      "deletions": 4,
       "date": "2026-08-25"
     },
     "coverage": 0,
