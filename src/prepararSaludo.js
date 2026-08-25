@@ -15,7 +15,8 @@ i18next.init({
                 youngFemale: 'jovencita',
                 mr: 'Sr.',
                 mrs: 'Sra.',
-                visitante: 'visitante'
+                visitante: 'visitante',
+                error: 'Error: Ingrese un valor válido para la edad'
             }
         },
         en: {
@@ -27,7 +28,8 @@ i18next.init({
                 youngFemale: 'young',
                 mr: 'Mr.',
                 mrs: 'Mrs.',
-                visitante: 'visitor'
+                visitante: 'visitor',
+                error : 'Error: Please enter a valid value for age' 
             }
         }
     }

@@ -36,9 +36,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6a2d5349e9dba53751fdd20132a8c6cd4152b7c6",
     "commitName": "test: Modificacion de saludo si nombre esta vacio",
     "commitTimestamp": 1787665458011,
     "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: Control si el usuario ingresa una edad invalida",
+    "commitTimestamp": 1787666017216,
+    "testId": 7
   }
 ]

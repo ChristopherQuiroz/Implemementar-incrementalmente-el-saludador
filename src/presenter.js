@@ -1,4 +1,5 @@
 import prepararSaludo from './prepararSaludo.js';
+import i18next from 'i18next';
 
 const name = document.querySelector('#name');
 const genero = document.querySelector('#genero');
@@ -17,11 +18,17 @@ formSaludo.addEventListener('submit', (event) => {
     nombre = "visitante";
   }
 
+  const edadIngresada = Number(edad.value);
+  if(edad.value === '' || Number.isNaN(edadIngresada) || edadIngresada < 0){
+    div.innerHTML = `<p>${i18next.t('error', { lng: idioma.value })}</p>`;
+    return;
+  }
+
   let greeting = '';
   greeting = prepararSaludo(
     nombre,
     genero.value,
-    parseInt(edad.value),
+    edadIngresada,
     idioma.value
   );
 

@@ -114,17 +114,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "6a2d5349e9dba53751fdd20132a8c6cd4152b7c6",
     "author": "Chris",
     "commit": {
       "date": "2026-08-25T13:44:16.000Z",
       "message": "test: Modificacion de saludo si nombre esta vacio",
-      "url": "https://github.com/ChristopherQuiroz/Implemementar-incrementalmente-el-saludador/commit/HEAD"
+      "url": "https://github.com/ChristopherQuiroz/Implemementar-incrementalmente-el-saludador/commit/6a2d5349e9dba53751fdd20132a8c6cd4152b7c6"
     },
     "stats": {
       "total": 21,
       "additions": 17,
       "deletions": 4,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Chris",
+    "commit": {
+      "date": "2026-08-25T13:53:34.000Z",
+      "message": "test: Control si el usuario ingresa una edad invalida",
+      "url": "https://github.com/ChristopherQuiroz/Implemementar-incrementalmente-el-saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 12,
+      "deletions": 3,
       "date": "2026-08-25"
     },
     "coverage": 0,
